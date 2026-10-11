@@ -15,28 +15,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     min-height: 100vh;
     text-align: center;
-  }
-  h1 {
-    font-size: 1.4rem;
-    font-weight: normal;
-    margin-bottom: 1rem;
   }
   video {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    margin-bottom: 1rem;
+  }
+  h1 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin: 0;
   }
 </style>
 </head>
 <body>
-<h1>Video de concurso - Iglesia</h1>
 <video controls playsinline>
   <source src="video.mp4" type="video/mp4">
   Tu navegador no puede reproducir este video.
 </video>
+<h1>Video de concurso - Iglesia</h1>
 </body>
 </html>
